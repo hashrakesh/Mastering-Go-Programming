@@ -70,6 +70,7 @@ func main() {
 	switch i := inc(); {
 	case i < 0:
 		fmt.Println("i is a negative number")
+		fallthrough // to continue execution
 	case i == 0:
 		fmt.Println("i is zero")
 	default:
