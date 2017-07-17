@@ -8,5 +8,5 @@ func main() {
 		fmt.Println(i) // print normaly i.e. FIFO
 		defer fmt.Println(i)  // output in reverse i.e. LIFO
 	}
-	fmt.Prinln("Done")
+	fmt.Println("Done")
 }
